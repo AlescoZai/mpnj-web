@@ -88,7 +88,7 @@
                         <div class="prev-thumb">
                             <div class="thumb-slider">
                                 <div class="item-thumb">
-                                    <img src="images/thumb1.jpg" alt="This is the thumbnail of the item">
+                                    <img src="{{ asset('assets/foto_produk/'.$produk->foto_produk[0]->foto_produk) }}" alt="This is the thumbnail of the item">
                                 </div>
                                 <div class="item-thumb">
                                     <img src="images/thumb2.jpg" alt="This is the thumbnail of the item">
